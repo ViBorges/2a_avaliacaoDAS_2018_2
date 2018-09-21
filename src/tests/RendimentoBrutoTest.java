@@ -20,12 +20,12 @@ public class RendimentoBrutoTest {
 
 	@Test
 	public void RedimentoBrutoTest() {
-		assertEquals(13.97, CDB.redimentoBruto(60, 1000, 22.5), 0.1);
+		assertEquals(13.97, CDB.redimento_bruto(60, 1000.00, 22.5), 0.01);
 	}
 	
 	@Test
 	public void RedimentoBrutoTest2() {
-		assertEquals(13.15, CDB.redimentoBruto(120, 500, 8.0), 0.1);
+		assertEquals(13.15, CDB.redimento_bruto(120, 500.00, 8.0), 0.01);
 		
 	}
 
