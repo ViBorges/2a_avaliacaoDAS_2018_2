@@ -11,12 +11,12 @@ public class RendimentoBrutoTest {
 	private int n;
 	private double p, i, result;
 
-	public RendimentoBrutoTest(int n, double p, double i, double result) {
+	/*public RendimentoBrutoTest(int n, double p, double i, double result) {
 		this.n = n;
 		this.p = p;
 		this.i = i;
 		this.result = result;
-	}
+	}*/
 
 	@Test
 	public void RedimentoBrutoTest() {
